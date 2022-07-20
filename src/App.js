@@ -35,8 +35,9 @@ import EditTicket from "./pages/Dashboard/Tickets/EditTicket";
 import Contacts from "./pages/Dashboard/Contacts/Contacts";
 import AddContact from "./pages/Dashboard/Contacts/AddContact";
 import EditContact from "./pages/Dashboard/Contacts/EditContact";
-import Events from "./pages/Events/Events";
-import AddEvent from "./pages/Events/AddEvent";
+import Events from "./pages/Dashboard/Events/Events";
+
+import AddEvent from "./pages/Dashboard/Events/AddEvent";
 import EditEvent from "./pages/Dashboard/Events/EditEvent";
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
               <Route path="leads" element={<Leads />}>
                 {" "}
               </Route>
+
               <Route path="add-lead" element={<AddLead />}></Route>
               <Route path="edit-lead" element={<EditLead />}></Route>
               <Route path="edit-event" element={<EditEvent />}></Route>
