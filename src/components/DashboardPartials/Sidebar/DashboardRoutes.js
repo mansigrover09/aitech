@@ -22,7 +22,7 @@ import { BsCalendar4Event } from "react-icons/bs";
 import Leads from "../../../pages/Dashboard/Leads/Leads";
 import Tickets from "../../../pages/Dashboard/Tickets/Tickets";
 import Contacts from "../../../pages/Dashboard/Contacts/Contacts";
-import Events from "../../../pages/Events/Events";
+import Events from "../../../pages/Dashboard/Events/Events";
 //import AllUsers from '../../../pages/Dashboard/Users/AllUsers';
 import Users from "../../../pages/Dashboard/Users/Users";
 
